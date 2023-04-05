@@ -7,20 +7,18 @@
     <div class="col-sm-8">
       <div class="card">
         <div class="card-body">
-
           <!-- Makes POST request to /login route -->
           <form action="/login" method="POST">
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" name="username">
+              <input type="email" class="form-control" name="username" />
             </div>
             <div class="form-group">
               <label for="password">Password</label>
-              <input type="password" class="form-control" name="password">
+              <input type="password" class="form-control" name="password" />
             </div>
             <button type="submit" class="btn btn-dark">Login</button>
           </form>
-
         </div>
       </div>
     </div>
@@ -29,7 +27,11 @@
     <div class="col-sm-4">
       <div class="card">
         <div class="card-body">
-          <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+          <a
+            class="btn btn-block btn-social btn-google"
+            href="/auth/google"
+            role="button"
+          >
             <i class="fab fa-google"></i>
             Sign In with Google
           </a>
@@ -37,7 +39,11 @@
       </div>
       <div class="card">
         <div class="card-body">
-          <a class="btn btn-block btn-social btn-facebook" href="/auth/google" role="button">
+          <a
+            class="btn btn-block btn-social btn-facebook"
+            href="/auth/google"
+            role="button"
+          >
             <i class="fab fa-facebook"></i>
             Sign In with Facebook
           </a>
@@ -45,15 +51,19 @@
       </div>
       <div class="card">
         <div class="card-body">
-          <a class="btn btn-block btn-social btn-twitter" href="/auth/google" role="button">
+          <a
+            class="btn btn-block btn-social btn-twitter"
+            href="/auth/google"
+            role="button"
+          >
             <i class="fab fa-twitter"></i>
             Sign In with Twitter
           </a>
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
+<!-- This adds the footer found in the partials -->
 <%- include('partials/footer') %>
